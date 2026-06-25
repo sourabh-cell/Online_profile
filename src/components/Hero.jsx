@@ -30,6 +30,8 @@ export default function Hero() {
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href={profile.resumeUrl}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-lg bg-slate-950 px-6 py-3 text-sm font-bold text-white shadow-soft transition hover:-translate-y-1 hover:bg-cyan-800"
             >
               <Download size={18} />
@@ -37,6 +39,8 @@ export default function Hero() {
             </a>
             <a
               href="#contact"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-6 py-3 text-sm font-bold text-slate-900 transition hover:-translate-y-1 hover:border-cyan-700 hover:text-cyan-800"
             >
               <Mail size={18} />
@@ -44,6 +48,8 @@ export default function Hero() {
             </a>
             <a
               href="#projects"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 text-sm font-bold text-cyan-800 transition hover:-translate-y-1 hover:bg-cyan-50"
             >
               View Projects

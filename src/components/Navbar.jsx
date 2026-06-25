@@ -8,7 +8,12 @@ export default function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/70 bg-white/85 shadow-sm backdrop-blur-xl">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
-        <a href="#home" className="flex items-center gap-3">
+        <a
+          href="#home"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3"
+        >
           <span className="grid h-10 w-10 place-items-center rounded-lg bg-slate-950 text-sm font-extrabold text-white">
             SG
           </span>
@@ -27,6 +32,8 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm font-semibold text-slate-600 transition hover:text-cyan-700"
             >
               {link.label}
@@ -37,6 +44,8 @@ export default function Navbar() {
         <div className="hidden items-center gap-3 lg:flex">
           <a
             href={profile.resumeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg bg-slate-950 px-4 py-2.5 text-sm font-bold text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-cyan-800"
           >
             <Download size={16} />
@@ -61,6 +70,8 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
                 className="rounded-lg px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100"
               >

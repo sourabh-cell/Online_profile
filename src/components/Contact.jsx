@@ -54,6 +54,8 @@ export default function Contact() {
                   <a
                     key={item.label}
                     href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-4 rounded-lg border border-white/10 bg-white/5 p-4 transition hover:-translate-y-1 hover:border-cyan-300"
                   >
                     <span className="grid h-11 w-11 place-items-center rounded-lg bg-cyan-400 text-slate-950">
@@ -130,6 +132,8 @@ export default function Contact() {
             <div className="mt-6 flex flex-wrap gap-3">
               <a
                 href={profile.githubUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-2 text-sm font-bold text-slate-700 hover:border-cyan-700 hover:text-cyan-800"
               >
                 <GitBranch size={17} />
@@ -137,6 +141,8 @@ export default function Contact() {
               </a>
               <a
                 href={profile.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-2 text-sm font-bold text-slate-700 hover:border-cyan-700 hover:text-cyan-800"
               >
                 <Network size={17} />
