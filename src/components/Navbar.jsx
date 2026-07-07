@@ -10,8 +10,6 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <a
           href="#home"
-          target="_blank"
-          rel="noopener noreferrer"
           className="flex items-center gap-3"
         >
           <span className="grid h-10 w-10 place-items-center rounded-lg bg-slate-950 text-sm font-extrabold text-white">
@@ -32,8 +30,6 @@ export default function Navbar() {
             <a
               key={link.href}
               href={link.href}
-              target="_blank"
-              rel="noopener noreferrer"
               className="text-sm font-semibold text-slate-600 transition hover:text-cyan-700"
             >
               {link.label}
@@ -70,8 +66,6 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                target="_blank"
-                rel="noopener noreferrer"
                 onClick={() => setIsOpen(false)}
                 className="rounded-lg px-3 py-2 text-sm font-semibold text-slate-700 hover:bg-slate-100"
               >
