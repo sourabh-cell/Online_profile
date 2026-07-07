@@ -21,7 +21,7 @@ export const profile = {
   education: "BCA, MCA",
   email: "akshayganvir007@gmail.com",
   phone: "+91 9112341259",
-  resumeUrl: "#",
+  resumeUrl: "/Sourabh_Ganvir_Java_devloper_Resume.pdf",
   githubUrl: "https://github.com/sourabh-cell",
   linkedinUrl: "https://www.linkedin.com/in/sourabh-ganvir-75698117a"
 };
@@ -91,7 +91,7 @@ export const projects = [
     summary:
       "Healthcare management application designed to organize patient, staff, appointment, and operational records.",
     stack: ["Java", "Spring Boot", "MySQL", "Hibernate/JPA"],
-    liveUrl: "#",
+    liveUrl: "",
     codeUrl: "#"
   }
 ];
@@ -114,3 +114,5 @@ export const contactItems = [
   { label: "Location", value: profile.location, href: "#", icon: MapPin },
   { label: "LinkedIn", value: "linkedin.com/in/sourabh-ganvir", href: "https://www.linkedin.com/in/sourabh-ganvir-75698117a", icon: BadgeCheck }
 ];
+
+

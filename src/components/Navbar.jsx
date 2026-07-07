@@ -44,7 +44,7 @@ export default function Navbar() {
         <div className="hidden items-center gap-3 lg:flex">
           <a
             href={profile.resumeUrl}
-            target="_blank"
+            download="Sourabh_Ganvir_Java_devloper_Resume.pdf"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-lg bg-slate-950 px-4 py-2.5 text-sm font-bold text-white shadow-soft transition hover:-translate-y-0.5 hover:bg-cyan-800"
           >

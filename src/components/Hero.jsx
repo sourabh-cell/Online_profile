@@ -27,7 +27,7 @@ export default function Hero() {
             workflows, and responsive React interfaces.
           </p>
 
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+          {/* <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
               href={profile.resumeUrl}
               target="_blank"
@@ -55,7 +55,7 @@ export default function Hero() {
               View Projects
               <ArrowRight size={18} />
             </a>
-          </div>
+          </div> */}
 
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {highlights.map((item) => {
