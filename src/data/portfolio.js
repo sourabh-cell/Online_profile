@@ -16,7 +16,7 @@ import {
 export const profile = {
   name: "Sourabh Ganvir",
   role: "Java Full Stack Developer",
-  experience: "1.6 years",
+  experience: "2 years",
   location: "Nagpur, India",
   education: "BCA, MCA",
   email: "akshayganvir007@gmail.com",
@@ -60,7 +60,7 @@ export const experience = [
   {
     role: "Java Full Stack Developer",
     company: "Professional Experience",
-    period: "1.6 years",
+    period: "2 years",
     points: [
       "Built full-stack features using Java, Spring Boot, React.js, MySQL, and REST APIs.",
       "Worked on authentication, backend business logic, database mapping, and responsive UI screens.",
